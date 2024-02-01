@@ -16,6 +16,9 @@ useEffect(() => {
             seScrolled(false)
         }
     }
+
+    
+    window.addEventListener("scroll", onScroll);
 }, [])
 
 
